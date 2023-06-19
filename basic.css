@@ -1,0 +1,97 @@
+:root {
+	--popOutColor : #C4A484;
+	--backgroundColor : #FFFFFF;
+	--textColor: #5C4033;
+}
+
+body{
+	font-family: garamond, serif;
+	background-color: var(--backgroundColor);
+	color: var(--textColor);
+	margin: 0;
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+table{
+	width: 100%;
+}
+
+td{
+	text-align:center;
+	border-style: hidden;
+	border-width:1 rem;
+}
+
+.visible-link{
+	color: blue;
+}
+
+#title{
+	padding: 10px;
+	float: left;
+	margin: 10px;
+}
+
+#navbar{
+	margin:20px;
+}
+
+.option{
+	padding: 10px;
+	border-radius:10px;
+	float: left;
+	margin: 10px;
+}
+
+.option:hover{
+	transition-duration:0.5s;
+	background-color: var(--popOutColor);
+}
+
+.container{
+	padding: 20px;
+	margin-right: 10%;
+	margin-left: 10%;
+	clear:left;
+}
+
+.cardholder{
+	width: 100%;
+	display: flex;
+}
+
+.linked-card{
+	margin:1%;
+	padding: 5%;
+	border-radius: 40px;
+	background-color: var(--popOutColor);
+	flex: 1;
+}
+
+.linked-card:hover{
+	background-color: var(--textColor);
+	transition-duration: 0.5s;
+	color: var(--backgroundColor);
+}
+
+.card-uncolored{
+	flex: 1;
+	margin:1%;
+	padding: 5%;
+}
+
+.movement-image{
+	height:50%;
+	width:50%;
+}
+
+.footer{
+	position: relative;
+	width: 100% - 100px;
+	padding: 50px;
+	background-color: var(--popOutColor);
+}
