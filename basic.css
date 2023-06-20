@@ -26,7 +26,7 @@ table{
 td{
 	text-align:center;
 	border-style: hidden;
-	border-width:1 rem;
+	border-width:1rem;
 }
 
 /*-Class for visible links-*/
@@ -103,7 +103,5 @@ td{
 
 /*-Footer styling-*/
 .footer{
-	position: relative;
-	width: 100% - 100px;
 	padding: 50px;
 }
