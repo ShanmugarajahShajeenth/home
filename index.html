@@ -1,22 +1,29 @@
-<!--Website for Introducing Me-->
+<!--Website for Chess-->
+<!--Declares Doctype-->
 <!doctype html>
 <html lang = "en">
+	<!--Head-->
 	<head>
 		<meta charset = "UTF-8">
-		<title>The Greatest Website of All Time</title>
+		<title>Sources</title>
 		<!--Cascade Style Sheets-->
 		<link href="basic.css" rel="stylesheet">
 	</head>
+	<!--Body-->
 	<body>
+		<!--Navigation Bar-->
 		<div id = "navbar">
-			<a id = "title"><b>The Pawn's Shop</b></a>
-			<a class = "option" href = "index.html"><b>Home</b></a>
+			<!--Title-->
+			<a id = "title" href = "index.html"><b>The Pawn's Shop</b></a>
+			<!--Options-->
+			<a class = "option" href = "index.html">Home</a>
 			<a class = "option" href = "history.html">History</a>
 			<a class = "option" href = "openings.html">Openings</a>
 			<a class = "option" href = "tactics.html">Tactics</a>
 			<a class = "option" href = "pieces.html">Pieces</a>
-			<a class = "option" href = "sources.html">Sources</a>
+			<a class = "option" href = "sources.html"><b>Sources</b></a>
 		</div>
+		<!--Content-->
 		<div class = "container">
 			<h1>What is Chess?</h1>
 			<p>
@@ -25,6 +32,8 @@
 				There are 8 pieces on both sides, which are differentiated by color, usually black or white.
 				The point of the game to put the opponents king in checkmate, before they do to you.
 				The game ends when the king cannot move anywhere, and is being threatened to be captured.
+			</p>
+			<!--Linked Cards to Webpages-->
 			<div class = "cardholder">
 				<a class = "linked-card" href = "history.html">
 					<h2>History</h2>
@@ -49,19 +58,27 @@
 				<div class = "card-uncolored">
 					<h1>Want to play chess?</h1>
 					<p>
-						Websites like chess.com are used to play chess with people online and have millions of users.
+						Websites like <a href = "https://www.chess.com" class = "visible-link">chess.com</a> are used to play chess with people online and have millions of users.
 						Chess.com is the #1 platform for playing chess with people online, and is used by many streamers and grandmasters.
 						It also has many different chess variants, like <a href="https://www.chess.com/terms/bughouse-chess" class = "visible-link">Bughouse</a>, <a href="https://www.chess.com/terms/4-player-chess" class = "visible-link">4 Player Chess</a>, and <a href="https://www.chess.com/terms/atomic-chess" class = "visible-link">Atomic Chess</a>.
 					</p>
 				</div>
-				<div class = "card-uncolored">
-					
-				</div>
 			</div>
-		</div>	
+		</div>
+		<!--Footer-->
+		<hr>
 		<div class = "footer">
-			<h1> lol </h1>
-			<!--Html validator badge needed with a html validator link-->
+			<table>
+				<tr>
+					<td>
+						<a href=""><img src = "images/html5-valid.png" alt = "html validator badge" height = "64rem"></a>
+						<a href=""><img src = "images/css-valid.png" alt = "css validator badge" height = "64rem"></a>
+					</td>
+				</tr>
+				<tr>
+					<td><a href = "tactics.html">Back to Top</a></td>
+				</tr>
+			</table>
 		</div>
 	</body>
 </html>

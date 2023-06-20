@@ -1,9 +1,11 @@
+/*-Declaration of color palette-*/
 :root {
 	--popOutColor : #C4A484;
 	--backgroundColor : #FFFFFF;
 	--textColor: #5C4033;
 }
 
+/*-Setting a constant theme for the website-*/
 body{
 	font-family: garamond, serif;
 	background-color: var(--backgroundColor);
@@ -11,6 +13,7 @@ body{
 	margin: 0;
 }
 
+/*-Making links look like normal text-*/
 a{
 	text-decoration: none;
 	color: inherit;
@@ -26,10 +29,16 @@ td{
 	border-width:1 rem;
 }
 
+/*-Class for visible links-*/
 .visible-link{
 	color: blue;
 }
 
+.visible-link:hover{
+	text-decoration: underline;
+}
+
+/*-Navbar Styling-*/
 #title{
 	padding: 10px;
 	float: left;
@@ -52,6 +61,7 @@ td{
 	background-color: var(--popOutColor);
 }
 
+/*-Content Styling-*/
 .container{
 	padding: 20px;
 	margin-right: 10%;
@@ -59,6 +69,7 @@ td{
 	clear:left;
 }
 
+/*-Card Styling-*/
 .cardholder{
 	width: 100%;
 	display: flex;
@@ -84,14 +95,15 @@ td{
 	padding: 5%;
 }
 
+/*-Image Styling-*/
 .movement-image{
 	height:50%;
 	width:50%;
 }
 
+/*-Footer styling-*/
 .footer{
 	position: relative;
 	width: 100% - 100px;
 	padding: 50px;
-	background-color: var(--popOutColor);
 }
